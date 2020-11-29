@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsible.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="highlight-item">
+            <div class="container">
+                <h3 class="title">The Umbrella Academy</h3>
+                <p class="description">Com a morte do pai, irmãos com poderes extraordinários se reencontram e descobrem surpreendentes segredos de família – além de uma ameaça iminente à humanidade.</p>
+                <div class="btns">
+                    <button role="button" class="btn btn-primary" onclick="location.href = 'https://www.netflix.com/watch/80186864';">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR
+                    </button>
+                    <button id="more-info" role="button" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="box-carousel-item"><img src="img/miniature-01.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-02.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-03.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-04.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-05.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-06.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-07.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-08.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-09.jpg" alt=""></div>
+            <div class="box-carousel-item"><img src="img/miniature-10.jpg" alt=""></div>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="more-info-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <article>
+                <header><h3>The Umbrella Academy</h3></header>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed nisi eget ex fermentum facilisis. Donec molestie, odio vitae convallis rutrum, leo ligula venenatis nulla, et hendrerit lorem nulla hendrerit sapien. Etiam dignissim suscipit tortor, eget ornare quam varius ac. Curabitur facilisis cursus risus, finibus placerat nisi volutpat id. Nullam dui arcu, vestibulum eu purus ut, rutrum maximus urna. Vivamus ac lectus facilisis, euismod nisl at, iaculis ante. Mauris nisi sapien, iaculis sit amet aliquet a, congue eget ipsum. Duis condimentum commodo metus. Duis tincidunt velit at turpis fermentum, nec vehicula diam facilisis. Integer tristique ipsum ac mi blandit porta. Integer ut nisl pellentesque mi aliquam pellentesque. Ut ac viverra turpis. Cras accumsan felis id orci pulvinar, vel congue magna ornare. Morbi et ex vitae enim maximus lobortis</p>
+                <p>Vestibulum congue ex id est sagittis, sed lobortis metus viverra. Donec a metus et ligula porttitor commodo. Suspendisse posuere, lacus vitae aliquet egestas, nunc ipsum volutpat est, tristique egestas sapien risus in velit. Donec eget scelerisque erat, sed ultrices ante. Integer sit amet lacus libero. Phasellus porttitor justo vitae nisl euismod malesuada. Nullam metus ante, sollicitudin vel elit quis, eleifend aliquam sapien. Vestibulum molestie, lacus quis fringilla vulputate, eros ipsum consequat massa, rutrum dignissim ligula est vel nisi. Quisque laoreet efficitur massa non dapibus. Quisque lacus sapien, pharetra id dignissim et, gravida nec turpis. Nam viverra odio non hendrerit tristique. Proin commodo velit ante, sit amet laoreet nunc consectetur in. Proin non semper enim, sit amet mattis eros. Sed interdum, justo quis scelerisque tempus, orci mauris luctus ex, vel sodales turpis ex sed orci. Nullam maximus turpis nisl, sed convallis lectus ornare at. Nam facilisis purus quis nisi convallis semper.</p>
+            </article>
+        </div>
+    </div>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/owl/setup.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
